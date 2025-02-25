@@ -5,6 +5,7 @@ This repository contains machine learning algorithms for classifying exoplanets 
 ## Dataset
 
 The dataset used in this project comes from NASA's Kepler mission, which aimed to discover Earth-sized exoplanets orbiting other stars. The dataset includes features such as:
+
 - Transit Depth
 - Orbital Period
 - Stellar Flux
@@ -13,11 +14,15 @@ The dataset used in this project comes from NASA's Kepler mission, which aimed t
 
 ## Algorithms Implemented
 
-The repository includes implementations of various classification algorithms, such as:
-- Logistic Regression
+The repository includes implementations of various ensemble classification algorithms, such as:
+
 - Random Forest
-- Support Vector Machines (SVM)
-- Neural Networks
+- Adaboost
+- Stacking
+- Random Subspace Methods
+- Extremely Randomized Trees (Extra Trees)
+
+These algorithms were used in the article: ["Machine Learning Approaches for Exoplanet Classification"](https://www.mdpi.com/2079-9292/13/19/3950).
 
 ## Installation
 
@@ -32,12 +37,13 @@ To run the models locally, clone this repository and install the required depend
 ## Usage
 
 1. Load and preprocess the dataset.
-2. Train the models using the provided scripts.
+2. Run each model script separately to train and evaluate.
 3. Evaluate the classification performance using standard metrics such as accuracy, precision, recall, and F1-score.
 
-To run the main script:
+To run a specific model script, use:
+
 ```bash
-python main.py
+python script_name.py
 ```
 
 ## Results
