@@ -22,7 +22,7 @@ The repository includes implementations of various ensemble classification algor
 - Random Subspace Methods
 - Extremely Randomized Trees (Extra Trees)
 
-These algorithms were used in the article: ["Machine Learning Approaches for Exoplanet Classification"](https://www.mdpi.com/2079-9292/13/19/3950).
+These algorithms were used in the article: ["Assessment of Ensemble-Based Machine Learning Algorithms for Exoplanet Identification"](https://www.mdpi.com/2079-9292/13/19/3950).
 
 ## Installation
 
